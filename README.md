@@ -33,10 +33,12 @@ The Application-flow of chatbot is as follows
 ## How to run
 To run the chatbot in local server:
 1. Clone the repository to your desired path.
-2. Open the parent folder as a a Pycharm proect.
-3. Create a virtual environment for your project. (Conda Environment or Vitualenv Environment as per your choice)
-4. Python and C++ build tools should be installed beforehand
-5. open terminal and run the commands
+2. Download this saved model from this google drive.(https://drive.google.com/file/d/1bRIIAqnfk0pqZxj-b-QXgGOKV18uI75L/view?usp=sharing)
+3. Save the zip file in the models folder without unzipping the file.
+4. Open the parent folder as a a Pycharm proect.
+5. Create a virtual environment for your project. (Conda Environment or Vitualenv Environment as per your choice)
+6. Python and C++ build tools should be installed beforehand
+7. open terminal and run the commands
   a. pip install rasa
   b. pip install spacy
   c. pip install rasa_x
