@@ -47,5 +47,10 @@ To run the chatbot in local server:
   
 6. After doing this type "rasa train" and press enter
 7. then to test your chatbot type rasa shell and press enter
-8. Test the chatbot, if you want some changes do them and repeat process 6 and 7
-9. if the chatbot is working properly your chatbot is ready to be integrated with the app or website.
+8. Test the chatbot, if you want some changes do them and repeat process 6 and 7.
+9. Next download ngrok.exe from https://ngrok.com/download
+10. After downloading, extract the zip file and open ngrok.exe file.
+11. In ngrok, enter the command ‘ngrok http 5005’
+12. Get your telegram bot API from BotFather in telegram.
+13. Next edit these credentials in the credentials.yml file.
+14. if the chatbot is working properly your chatbot is ready to be integrated with the apps mentioned above or your website.
