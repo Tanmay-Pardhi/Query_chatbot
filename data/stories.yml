@@ -1,0 +1,43 @@
+version: "2.0"
+
+stories:
+
+- story: chat and happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chat
+  - action: utter_chat
+  - intent: mood_great
+  - action: utter_happy
+
+- story: chat and sad1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chat
+  - action: utter_chat
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chat
+  - action: utter_chat
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_walk
+
+- story: know_initial
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: know_app
+  - action: utter_know
