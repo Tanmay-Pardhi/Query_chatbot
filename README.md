@@ -1,4 +1,4 @@
-# second_home_chatbot
+# Query chatbot
 
 ## Introduction
 This chatbot is created using the Rasa X 
