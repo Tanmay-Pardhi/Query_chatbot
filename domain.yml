@@ -1,0 +1,58 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - use
+  - business
+  - volunteer
+  - know_app
+  - chat
+
+responses:
+  utter_greet:
+  - text: "Hey! So what brings you here today, Wanna know abt our app or just chat with me"
+
+  utter_know:
+  - text: "Great! Let's go on the journey to know more abt our app. What do you wanna know?"
+
+  utter_tell_use:
+  - text: "I am a platform for connecting local businesses with volunteers."
+
+  utter_business:
+  - text: "A web application that will help small businesses by connecting their needs with services that community can offer,  Business owners can register their business, request for help regarding different issues, update the services they need and contact the required volunteers."
+
+  utter_volunteer:
+    - text: "volunteers can register, providing information about the skills they can provide as a volunteer, they can also register on behalf of someone else's local business and can also update the skillsets from time to time."
+
+  utter_chat:
+    - text: "Nice to know, anyways I was feeling lonely. So how's your mood"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "That's great  to know. I hope that your mood always remain like this. Have a good day. Bye"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_walk:
+  - text: "Ohh sorry to hear that, Why don't you try going out and have a walk. Till then Sayonara"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
